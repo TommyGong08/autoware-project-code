@@ -1,3 +1,12 @@
+#include<sys/types.h>
+#include<dirent.h>
+#include<fstream>
+#include<vector>
+#include<string>
+#include<stdexcept>
+#include<sstream>
+
+
 //opencv
 #include<opencv2/video.hpp>
 #include<opencv2/opencv.hpp>
@@ -41,7 +50,11 @@ pcl::PointCloud<pcl::PointXYZRGB> color_cloud;
 pcl::PointCloud<pcl::PointXYZ> cloud;
 sensor_msgs::PointCloud2 output;
 sensor_msgs::PointCloud2 output_color_cloud;
+vector<string> v_img;
+vector<string> v_pcd;
 
+string img_path_name = "/home/neousys/hailong/project1_ws/src/project1_raw_data/image_data/front/";
+string pcd_path_name = "/home/neousys/hailong/project1_ws/src/project1_raw_data/pcd_data/";
 
 
 
