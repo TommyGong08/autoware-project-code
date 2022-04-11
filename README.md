@@ -10,4 +10,4 @@ Projecting the point cloud to the front image and then create the colorful point
 ## Project 3
 Vehicle detection and segmentation based on Euculidean Cluster.    
 **The compelete code will be released after 4.20.**   
-![rendering2](./car_segmentation/img/demo.gif)    
+![rendering2](./car_segmentation/img/demo2.gif)    
